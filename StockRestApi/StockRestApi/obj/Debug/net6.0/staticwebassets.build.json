@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "/IPwhjfPMks0E6bDlXfEIvinx5auoT5ZPDzzMqmWrWw=",
+  "Source": "StockRestApi",
+  "BasePath": "_content/StockRestApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

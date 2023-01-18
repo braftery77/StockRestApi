@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StockRestApi</name>
+    </assembly>
+    <members>
+        <member name="M:StockRestApi.SwaggerConfig.AddSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Add Swagger middleware
+            </summary>
+            <remarks>
+            See: https://github.com/drwatson1/AspNet-Core-REST-Service/wiki#documenting-api
+            </remarks>
+        </member>
+        <member name="T:Refit.Implementation.Generated">
+            <inheritdoc />
+        </member>
+        <member name="T:Refit.Implementation.Generated.StockRestApiApisIApperateApi">
+            <inheritdoc />
+        </member>
+        <member name="P:Refit.Implementation.Generated.StockRestApiApisIApperateApi.Client">
+            <inheritdoc />
+        </member>
+        <member name="M:Refit.Implementation.Generated.StockRestApiApisIApperateApi.#ctor(System.Net.Http.HttpClient,Refit.IRequestBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Refit.Implementation.Generated.StockRestApiApisIApperateApi.Get(System.String,System.DateTime,System.DateTime)">
+            <inheritdoc />
+        </member>
+        <member name="M:Refit.Implementation.Generated.StockRestApiApisIApperateApi.StockRestApi#Apis#IApperateApi#Get(System.String,System.DateTime,System.DateTime)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
