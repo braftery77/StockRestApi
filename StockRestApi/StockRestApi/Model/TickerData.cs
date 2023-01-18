@@ -18,6 +18,6 @@ public class TickerData : IComparable<TickerData>, IEquatable<TickerData>
 
     public bool Equals(TickerData other)
     {
-        return PriceDate.Date.Equals(other.PriceDate.Date);
+        return PriceDate.Date.Equals(other.PriceDate.Date) && Symbol.Equals(other.Symbol, StringComparison.OrdinalIgnoreCase);
     }
 }

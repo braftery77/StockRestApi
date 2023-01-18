@@ -25,12 +25,12 @@ public class TickerController : ControllerBase
     [Route("{symbol}")]
     public async Task<IActionResult> Get([FromRoute] string symbol, [FromQuery] DateTime? fromDate, [FromQuery] DateTime? toDate)
     {
-        var ts = Stopwatch.StartNew();
-
         if (string.IsNullOrEmpty(symbol))
         {
             return BadRequest("Ticker cannot be empty");
         }
+
+        symbol = symbol.ToUpper();
 
         if (fromDate is null)
         {
